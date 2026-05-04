@@ -1,0 +1,15 @@
+*.bit filter=lfs diff=lfs merge=lfs -text
+*.sof filter=lfs diff=lfs merge=lfs -text
+*.xsa filter=lfs diff=lfs merge=lfs -text
+*.bin filter=lfs diff=lfs merge=lfs -text
+*.rbf filter=lfs diff=lfs merge=lfs -text
+*.bit.gz filter=lfs diff=lfs merge=lfs -text
+*.dcp filter=lfs diff=lfs merge=lfs -text
+*.edf filter=lfs diff=lfs merge=lfs -text
+*.ngc filter=lfs diff=lfs merge=lfs -text
+*.qdb filter=lfs diff=lfs merge=lfs -text
+*.rpt filter=lfs diff=lfs merge=lfs -text
+*.v filter=lfs diff=lfs merge=lfs -text
+*.sv filter=lfs diff=lfs merge=lfs -text
+*.vhd filter=lfs diff=lfs merge=lfs -text
+*.tcl filter=lfs diff=lfs merge=lfs -text
