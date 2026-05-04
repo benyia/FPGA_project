@@ -1,15 +1,14 @@
+<<<<<<< HEAD
+# Git LFS 大文件跟踪
 *.bit filter=lfs diff=lfs merge=lfs -text
 *.sof filter=lfs diff=lfs merge=lfs -text
 *.xsa filter=lfs diff=lfs merge=lfs -text
 *.bin filter=lfs diff=lfs merge=lfs -text
 *.rbf filter=lfs diff=lfs merge=lfs -text
-*.bit.gz filter=lfs diff=lfs merge=lfs -text
 *.dcp filter=lfs diff=lfs merge=lfs -text
 *.edf filter=lfs diff=lfs merge=lfs -text
-*.ngc filter=lfs diff=lfs merge=lfs -text
 *.qdb filter=lfs diff=lfs merge=lfs -text
-*.rpt filter=lfs diff=lfs merge=lfs -text
-*.v filter=lfs diff=lfs merge=lfs -text
-*.sv filter=lfs diff=lfs merge=lfs -text
-*.vhd filter=lfs diff=lfs merge=lfs -text
-*.tcl filter=lfs diff=lfs merge=lfs -text
+=======
+# Auto detect text files and perform LF normalization
+* text=auto
+>>>>>>> 6d1a4f7ba34ee68443975184c685fb61cd2d17c1
