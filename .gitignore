@@ -1,0 +1,68 @@
+# Vivado build artifacts
+*.cache/
+*.hw/
+*.runs/
+*.sim/
+*.ip_user_files/
+*.sdk/
+*.gen/
+xsim.dir/
+.Xil/
+.jobs/
+
+# Simulation artifacts (ModelSim, etc.)
+work/
+
+# Generated IP files (regenerable from .xci)
+*_sim_netlist.v
+*_sim_netlist.vhdl
+*_stub.v
+*_stub.vhdl
+*_rfs.v
+*_rfs.vhd
+*_rfs.sv
+*_vhsyn_rfs.vhd
+*_syn_rfs.v
+
+# Vivado log files
+*.jou
+*.log
+*.backup.jou
+*.backup.log
+vivado_pid*.zip
+webtalk*
+
+# Strategy files
+*.str
+
+# Waveform/config files
+*.wdb
+*.wcfg
+*.wlf
+*.mpf
+*.cr.mti
+
+# Implementation checkpoints
+*.dcp
+
+# Baidu cloud temp files
+*.baiduyun.uploading.cfg
+
+# Office temp files
+~$*
+
+# Binary and large files
+*.exe
+*.dll
+*.so
+*.zip
+*.rar
+*.pdf
+
+# Reference / large directories (not user's own code)
+/正点原子领航者(V2)ZYNQ开发板资料盘(A盘)/
+/PZ-ZYNQ-野火资料/
+/ZYNQ_7020_FPGA_正点原子领航者源码/
+/proj_eth_udp_loop_20250701/
+/proj_eth_udp_loop_xiugai_ceshi/
+/udp_loop_suddire/

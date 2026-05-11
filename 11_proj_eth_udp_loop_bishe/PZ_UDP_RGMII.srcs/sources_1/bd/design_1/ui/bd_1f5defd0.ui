@@ -1,0 +1,97 @@
+{
+   "ActiveEmotionalView":"Default View",
+   "Default View_ScaleFactor":"0.447619",
+   "Default View_TopLeft":"-891,-699",
+   "ExpandedHierarchyInLayout":"",
+   "guistr":"# # String gsaved with Nlview 7.0r6  2020-01-29 bk=1.5227 VDI=41 GEI=36 GUI=JA:10.0 non-TLS
+#  -string -flagsOSRD
+preplace port DDR -pg 1 -lvl 6 -x 2570 -y -660 -defaultsOSRD
+preplace port FIXED_IO -pg 1 -lvl 6 -x 2570 -y -640 -defaultsOSRD
+preplace port sys_clk -pg 1 -lvl 0 -x -210 -y 60 -defaultsOSRD
+preplace port sys_rst_n -pg 1 -lvl 0 -x -210 -y 20 -defaultsOSRD
+preplace port lvds_clk -pg 1 -lvl 0 -x -210 -y 100 -defaultsOSRD
+preplace port lvds_csl -pg 1 -lvl 0 -x -210 -y 120 -defaultsOSRD
+preplace port lvds_data1 -pg 1 -lvl 0 -x -210 -y 140 -defaultsOSRD
+preplace port lvds_data2 -pg 1 -lvl 0 -x -210 -y 160 -defaultsOSRD
+preplace port en -pg 1 -lvl 6 -x 2570 -y 110 -defaultsOSRD
+preplace port en_n -pg 1 -lvl 6 -x 2570 -y 130 -defaultsOSRD
+preplace port eth_mdio -pg 1 -lvl 6 -x 2570 -y -170 -defaultsOSRD
+preplace port eth_mdc -pg 1 -lvl 6 -x 2570 -y -190 -defaultsOSRD
+preplace port net_txc -pg 1 -lvl 6 -x 2570 -y -150 -defaultsOSRD
+preplace port net_tx_ctl -pg 1 -lvl 6 -x 2570 -y -130 -defaultsOSRD
+preplace port net_rxc -pg 1 -lvl 0 -x -210 -y -130 -defaultsOSRD
+preplace port net_rx_ctl -pg 1 -lvl 0 -x -210 -y -110 -defaultsOSRD
+preplace portBus net_txd -pg 1 -lvl 6 -x 2570 -y -110 -defaultsOSRD
+preplace portBus net_rxd -pg 1 -lvl 0 -x -210 -y -90 -defaultsOSRD
+preplace inst processing_system7_0 -pg 1 -lvl 2 -x 450 -y -630 -defaultsOSRD
+preplace inst lvds_rx_0 -pg 1 -lvl 2 -x 450 -y 350 -defaultsOSRD
+preplace inst g_net_rest_n_0 -pg 1 -lvl 1 -x 50 -y -210 -defaultsOSRD
+preplace inst vio_0 -pg 1 -lvl 1 -x 50 -y -410 -defaultsOSRD
+preplace inst clk_wiz_0 -pg 1 -lvl 1 -x 50 -y -10 -defaultsOSRD
+preplace inst fifo_rx -pg 1 -lvl 5 -x 2280 -y 830 -defaultsOSRD
+preplace inst ila_0 -pg 1 -lvl 4 -x 1750 -y 380 -defaultsOSRD
+preplace inst ila_FIFO_lvds -pg 1 -lvl 5 -x 2280 -y 490 -defaultsOSRD
+preplace inst FIFO_trans_0 -pg 1 -lvl 3 -x 1350 -y -240 -defaultsOSRD
+preplace inst net_udp_loop_0 -pg 1 -lvl 5 -x 2280 -y -240 -defaultsOSRD
+preplace inst FIFO_write_0 -pg 1 -lvl 3 -x 1350 -y 810 -defaultsOSRD
+preplace inst lvds_simulate_0 -pg 1 -lvl 1 -x 50 -y 500 -defaultsOSRD
+preplace netloc sys_clk_1 1 0 1 -160 0n
+preplace netloc clk_wiz_0_clk_150M 1 0 5 -130 -310 200 -60 N -60 1540 180 1880
+preplace netloc lvds_rx_0_dat_update 1 2 2 590 500 N
+preplace netloc lvds_rx_0_dat_rx 1 2 2 610 390 1580
+preplace netloc lvds_rx_0_en 1 2 4 620J 140 N 140 NJ 140 2500
+preplace netloc lvds_rx_0_en_n 1 2 4 640J 150 N 150 NJ 150 2540
+preplace netloc clk_wiz_0_clk_50M 1 0 5 -110 -280 210 -390 N -390 N -390 1960
+preplace netloc Net 1 5 1 2540 -340n
+preplace netloc net_udp_loop_0_eth_mdc 1 5 1 2550 -360n
+preplace netloc net_udp_loop_0_net_txc 1 5 1 2530 -320n
+preplace netloc net_udp_loop_0_net_tx_ctl 1 5 1 2520 -300n
+preplace netloc net_udp_loop_0_net_txd 1 5 1 2510 -280n
+preplace netloc net_rxc_0_1 1 0 5 -190J -140 NJ -140 680 -90 1510 -270 1930
+preplace netloc net_rx_ctl_0_1 1 0 5 -150J -130 NJ -130 670 -100 1520 -260 N
+preplace netloc net_rxd_0_1 1 0 5 -150J 100 NJ 100 N 100 1530 -230 1910
+preplace netloc FIFO_write_0_fifo_clk 1 3 2 N 760 1940
+preplace netloc fifo_rx_dout 1 2 3 710 160 N 160 1870
+preplace netloc fifo_rx_empty 1 2 3 720 170 N 170 1860
+preplace netloc vio_0_probe_out0 1 1 4 N -420 N -420 N -420 1940
+preplace netloc clk_wiz_0_clk_100M 1 0 2 -130 -120 190
+preplace netloc clk_wiz_0_clk_75M 1 0 2 -120 110 190
+preplace netloc vio_0_probe_out1 1 0 2 -140 -340 190
+preplace netloc lvds_simulate_0_lvds_clk_out 1 1 3 250 540 720 280 N
+preplace netloc lvds_simulate_0_lvds_csl_out 1 1 3 240 180 630 300 N
+preplace netloc lvds_simulate_0_lvds_data1_out 1 1 3 270 520 680 420 1600
+preplace netloc lvds_simulate_0_lvds_data2_out 1 1 3 260 530 700 450 1610
+preplace netloc lvds_clk_1 1 0 1 -160 100n
+preplace netloc lvds_csl_1 1 0 1 -170 120n
+preplace netloc lvds_data1_1 1 0 1 -180 140n
+preplace netloc lvds_data2_1 1 0 1 -190 160n
+preplace netloc sys_rst_n_1 1 0 5 -110 300 230 -220 660 -80 1500 -290 1850
+preplace netloc clk_wiz_0_clk_200M 1 1 4 220 -380 NJ -380 NJ -380 1950J
+preplace netloc lvds_rx_0_debug_rst 1 2 2 NJ 380 1570
+preplace netloc lvds_rx_0_lineID 1 2 2 NJ 400 1590
+preplace netloc net_udp_loop_0_fifo_clk 1 2 4 700 90 NJ 90 1910J 90 2500
+preplace netloc net_udp_loop_0_udp_tx_busy 1 2 4 730 -70 NJ -70 1950 -60 2490
+preplace netloc FIFO_trans_0_fifo_rd_en 1 3 2 NJ -320 1890
+preplace netloc FIFO_trans_0_fifo_dout 1 3 2 N -300 1840
+preplace netloc FIFO_trans_0_fifo_wr_en 1 3 2 N -280 1920
+preplace netloc FIFO_trans_0_tx_send_en 1 3 2 N -240 1900
+preplace netloc FIFO_write_0_fifo_wr_en 1 3 2 NJ 800 1950
+preplace netloc FIFO_write_0_fifo_din 1 3 2 NJ 780 1930
+preplace netloc FIFO_write_0_rx_done 1 2 3 690 190 1560 190 1850
+preplace netloc lvds_rx_0_framenew_rst 1 2 3 650 200 1550 200 1840
+preplace netloc lvds_rx_0_x 1 2 2 640 440 NJ
+preplace netloc lvds_rx_0_y 1 2 2 620 460 NJ
+preplace netloc lvds_rx_0_z 1 2 2 600 480 NJ
+preplace netloc net_udp_loop_0_eth_link_ok 1 0 6 -110 -290 270 -50 NJ -50 NJ -50 NJ -50 2480
+preplace netloc fifo_rx_rd_data_count 1 4 2 1960 320 2480
+preplace netloc sys_rst_n_2 1 0 1 -180 -200n
+preplace netloc fifo_rx_full 1 4 1 1960 600n
+preplace netloc processing_system7_0_DDR 1 2 4 690J -660 NJ -660 NJ -660 NJ
+preplace netloc processing_system7_0_FIXED_IO 1 2 4 700J -640 NJ -640 NJ -640 NJ
+levelinfo -pg 1 -210 50 450 1350 1750 2280 2570
+pagesize -pg 1 -db -bbox -sgen -340 -740 2700 980
+"
+}
+{
+   "da_ps7_cnt":"1"
+}

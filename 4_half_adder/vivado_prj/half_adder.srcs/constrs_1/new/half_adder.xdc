@@ -1,0 +1,8 @@
+set_property IOSTANDARD LVCMOS33 [get_ports count]
+set_property IOSTANDARD LVCMOS33 [get_ports in1]
+set_property IOSTANDARD LVCMOS33 [get_ports in2]
+set_property IOSTANDARD LVCMOS33 [get_ports sum]
+set_property PACKAGE_PIN J16 [get_ports count]
+set_property PACKAGE_PIN G20 [get_ports in1]
+set_property PACKAGE_PIN H15 [get_ports in2]
+set_property PACKAGE_PIN K16 [get_ports sum]
